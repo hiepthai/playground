@@ -41,13 +41,6 @@ const env = nunjucks.configure('views', {
   express   : app
 });
 
-/*navs = [
-  {slug: 'impressum' , title: 'Impressum' },
-  {slug: 'about-us' , title: 'About Us' },
-]
-
-env.addGlobal('navs', navs);*/
-
 helper.getNavs(function(navs) {
   env.addGlobal('navs', navs);
 })

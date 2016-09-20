@@ -29,8 +29,6 @@ The Wordpress is a vanilla installation, along with the [WP-API Plugin](http://v
 
 * Admin: http://playground.finaldream.de/wp-admin
 * API-Endpoint: http://playground.finaldream.de/wp-json/wp/v2/
-* Username: `developer`
-* Password: `VhuJL0Rm43=MKXht`
 
 ## Expectation:
 
